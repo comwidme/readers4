@@ -684,7 +684,7 @@
             if (minsEl) minsEl.textContent = String(mins).padStart(2, '0');
         }
 
-        const GEMINI_API_KEY = "AIzaSyA5N4hrGOr8VQeHdv-_GWswAd8tkDgpYOE"; // Provided at runtime
+        const GEMINI_API_KEY = ""; // Provided at runtime
         
         async function callGeminiApi(userQuery, systemPrompt) {
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
